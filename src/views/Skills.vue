@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col cols="12" xs="12">
-          <h2 class="my-10 text-center">
+          <h2 class="my-10 text-center page-title">
             Skills I'm refining now
           </h2>
         </v-col>

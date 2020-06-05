@@ -53,7 +53,10 @@ body * {
   line-height: 1.7 !important;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1200px !important;
+}
+.page-title {
+  font-size: 2rem;
 }
 </style>
 
