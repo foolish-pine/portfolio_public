@@ -1,0 +1,63 @@
+[
+  {
+    "lang": "JavaScript",
+    "img": "img/svg/javascript.svg",
+    "imgWidth": "100px",
+    "text": "基本的な部分の学習もしつつ、TypeScriptやフレームワークであるVue.jsの勉強を進めています。"
+  },
+  {
+    "lang": "TypeScript",
+    "img": "img/svg/typescript-icon.svg",
+    "imgWidth": "100px",
+    "text": "PureなJavaScriptと平行して学習を進めています。"
+  },
+  {
+    "lang": "Vue.js",
+    "img": "img/svg/vue.svg",
+    "imgWidth": "100px",
+    "text": "コーディングしたサイトに組み込んでみたり、Vue CLIを使用してSPAを自作したりしています。当サイトはVue.jsでつくられています。"
+  },
+  {
+    "lang": "HTML5",
+    "img": "img/svg/html-5.svg",
+    "imgWidth": "100px",
+    "text": "デザインカンプからコーディングできます（レスポンシブ対応含む）。セマンティックなマークアップを意識してコーディングしています。"
+  },
+  {
+    "lang": "CSS3",
+    "img": "img/svg/css-3.svg",
+    "imgWidth": "100px",
+    "text": "CSSの設計手法であるFLOCSSを取り入れています。変更に強い堅牢なつくりにすることを心がけています。"
+  },
+  {
+    "lang": "Sass",
+    "img": "img/svg/sass.svg",
+    "imgWidth": "100px",
+    "text": "変数やファイル分割を利用してメンテナンス性のよいコードを書くようにしています。"
+  },
+  {
+    "lang": "jQuery",
+    "img": "img/svg/jquery.svg",
+    "imgWidth": "180px",
+    "text": "ハンバーガーメニューやスライダー等Webサイトで頻出のものは実装できます。"
+  },
+  {
+    "lang": "PHP",
+    "img": "img/svg/php.svg",
+    "imgWidth": "100px",
+    "text": "現時点ではお問い合わせフォームを実装できる程度です。"
+  },
+  {
+    "lang": "Gulp",
+    "img": "img/svg/gulp.svg",
+    "imgWidth": "100px",
+    "text": "Webサイトをコーディングする際、EJSやSassのコンパイル、画像の圧縮、Lintツール等をGulpに実行させています。"
+  },
+  {
+    "lang": "Git / GitHub",
+    "img": "img/svg/git-icon.svg",
+    "img2": "img/svg/github-icon.svg",
+    "imgWidth": "80px",
+    "text": "バージョン管理のためにGitとGitHubを使用しています。"
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "img": "img/work/my-memo-board.png",
+    "name": "メモアプリ『My Memo Board』",
+    "tag": [
+      "Vue.js"
+    ],
+    "dialog": false,
+    "dialogImg": "img/work/my-memo-board.gif",
+    "url": "https://draggable-memo-app-foolish-pine.netlify.app/",
+    "github": "https://github.com/foolish-pine/trello-like-app",
+    "charge": "すべて",
+    "tools": "Vue.js / Vuetify / Firebase",
+    "period": "40時間",
+    "points": [
+      "Vue.jsとFirebaseを使用した認証機能つきメモアプリです。",
+      "デザインまわりはVuetifyを使用して作成しました。",
+      "カードとメモを新規作成、削除、編集することができます。",
+      "ドラッグ＆ドロップでカードとメモを移動させることができます。",
+      "メモは別のカードに移動させることもできます"
+    ]
+  },
+  {
+    "img": "img/work/chat-app.png",
+    "name": "チャットアプリ『Pine's Chat App』",
+    "tag": [
+      "Vue.js"
+    ],
+    "dialog": false,
+    "dialogImg": "img/work/chat-app.gif",
+    "url": "https://chat-app-foolish-pine.netlify.app/",
+    "github": "https://github.com/foolish-pine/chat_app",
+    "charge": "すべて",
+    "tools": "Vue.js / Vuetify / Firebase",
+    "period": "40時間",
+    "points": [
+      "Vue.jsとFirebaseを使用した認証機能つきチャットアプリです。",
+      "デザインまわりはVuetifyを使用して作成しました。",
+      "サイドバーから参加済みのトークルームにアクセスできます。",
+      "サイドバーのJoinボタンを押し、ルームIDとパスワードを入力することで他の人が作成したルームに参加できます。",
+      "サイドバーのNewボタンを押し、ルーム名、ID、パスワードを設定することで、新しいルームを作成できます。"
+    ]
+  },
+  {
+    "img": "img/work/cresta-3.png",
+    "name": "架空サイトコーディング",
+    "tag": [
+      "HTML/CSS", "Sass", "jQuery", "PHP"
+    ],
+    "dialog": false,
+    "url": "https://cresta-upper.foolish-pine.com",
+    "github": "https://github.com/foolish-pine/Cresta_upper",
+    "charge": "コーディングのみ",
+    "designDistributer": "【コーディング課題】XDからコーディングをしよう【上級編】",
+    "designURL": "https://crestadesign.org/cording-third/",
+    "tools": "HTML / CSS / Sass / jQuery / PHP / Adobe XD",
+    "period": "20時間",
+    "points": [
+      "XDのデザインカンプをもとにコーディングした、トップページと2つの下層ページからなるWebサイトです。",
+      "レスポンシブ対応あり(PC、タブレット、SP)。",
+      "スティッキーヘッダー、フェードイン、ドロワーメニューをjQueryで実装しました。",
+      "バリデーション機能つきのお問い合わせフォームをPHPで実装しました。"
+    ]
+  },
+  {
+    "img": "img/work/cresta-2.png",
+    "name": "架空サイトコーディング",
+    "tag": [
+      "HTML/CSS", "Sass", "jQuery", "PHP"
+    ],
+    "dialog": false,
+    "url": "https://cresta-intermediate.foolish-pine.com/",
+    "github": "https://github.com/foolish-pine/Cresta_intermediate",
+    "charge": "コーディングのみ",
+    "designDistributer": "【コーディング課題】XDからコーディングをしよう【中級編】",
+    "designURL": "https://crestadesign.org/cording-second/",
+    "tools": "HTML / CSS / Sass / jQuery / PHP / Adobe XD",
+    "period": "12時間",
+    "points": [
+      "XDのデザインカンプをもとにコーディングした、トップページと1つの下層ページからなるWebサイトです。",
+      "レスポンシブ対応あり(PC、SP)。",
+      "スティッキーヘッダー、スライドショー、ハンバーガーメニューをjQueryで実装しました。",
+      "バリデーション機能つきのお問い合わせフォームをPHPで実装しました。"
+    ]
+  },
+  {
+    "img": "img/work/daily-trial-2nd.png",
+    "name": "架空LPコーディング",
+    "tag": [
+      "HTML/CSS", "Sass", "jQuery", "PHP"
+    ],
+    "dialog": false,
+    "url": "https://daily-trial-2nd.foolish-pine.com/",
+    "github": "https://github.com/foolish-pine/daily_trial_2nd",
+    "charge": "コーディングのみ",
+    "designDistributer": "デイトラ(現在は配布終了)",
+    "designURL": "https://www.daily-trial.com/",
+    "tools": "HTML / CSS / Sass / jQuery / PHP / Adobe XD",
+    "period": "20時間",
+    "points": [
+      "XDのデザインカンプをもとにコーディングした、ランディングページです。",
+      "レスポンシブ対応あり(PC、SP)。",
+      "スティッキーヘッダー、スライダー(プラグイン使用)、ドロワーメニュー等をjQueryで実装しました。",
+      "バリデーション機能つきのお問い合わせフォームをPHPで実装しました。"
+    ]
+  },
+  {
+    "img": "img/work/KAGU.png",
+    "name": "架空LPコーディング",
+    "tag": [
+      "HTML/CSS", "Sass", "jQuery"
+    ],
+    "dialog": false,
+    "url": "https://kagu.foolish-pine.com/",
+    "github": "https://github.com/foolish-pine/KAGU",
+    "charge": "コーディングのみ",
+    "designDistributer": "【無料配布】コーディング練習用　リッチデザインデータ「KAGU」",
+    "designURL": "https://note.com/hi_roki/n/nb0c5f24f9107",
+    "tools": "HTML / CSS / Sass / jQuery / Photoshop",
+    "period": "",
+    "points": [
+      "Photoshopのデザインカンプをもとにコーディングした、ランディングページです。",
+      "レスポンシブ対応あり(PC、タブレット、SP)。",
+      "スティッキーヘッダー、スライドショー、ハンバーガーメニューをjQueryで実装しました。"
+    ]
+  },
+  {
+    "img": "img/work/cresta-1.png",
+    "name": "架空LPコーディング",
+    "tag": [
+      "HTML/CSS", "Sass", "jQuery", "Vue.js", "PHP"
+    ],
+    "dialog": false,
+    "url": "https://cresta-beginner.foolish-pine.com/",
+    "github": "https://github.com/foolish-pine/Cresta_beginner",
+    "charge": "コーディングのみ",
+    "designDistributer": "【コーディング課題】XDからコーディングをしよう【初級編】】",
+    "designURL": "https://crestadesign.org/cording-first/",
+    "tools": "HTML / CSS / Sass / jQuery/ Vue.js / PHP / Adobe XD",
+    "period": "5時間",
+    "points": [
+      "XDのデザインカンプをもとにコーディングした、ランディングページです。",
+      "レスポンシブ対応あり(PC、SP)。",
+      "スティッキーヘッダー、フェードインをjQueryで実装しました。",
+      "お問い合わせフォームをPHPで、そのバリデーション機能をVue.jsで実装しました。"
+    ]
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "about": {
+    "title": "About",
+    "avatar": "img/avatar-pine.png",
+    "name": "ぱいん",
+    "contents": [
+      {
+        "icon": "mdi-cake-variant",
+        "label": "誕生年",
+        "text": "1994年(26歳)"
+      },
+      {
+        "icon": "mdi-home",
+        "label": "出身地",
+        "text": "愛知県"
+      },
+      {
+        "icon": "mdi-school",
+        "label": "最終学歴",
+        "text": " 理学修士(生物系)"
+      }
+    ],
+    "comment": "大学院修了後、会社員、団体職員を経て、現在フロントエンドエンジニアを目指して勉強中の身です。最近は主にJavaScriptとそのフレームワークであるVue.jsをメインに学習しています。"
+  },
+  "motivation": {
+    "title": "Motivation",
+    "content": "私は子どものころ、何かをつくったり、改良したり、分析したりすることによく夢中になっていました。プログラミングの学習を始めて、あのときの情熱を思い出せた気がします。思い通りに動いたときはもちろん、うまくいかずに頭を抱えているときもわけもわからず右往左往しているときも含めて、プログラミングは楽しいです。そして自分がつくったものを見て人に喜んでもらえたら、最高に嬉しいです。つくって楽しく、使って喜んでもらえるようなプロダクトを生み出せるエンジニアになることが目標です。"
+  },
+  "qualifications": {
+    "title": "Qualifications",
+    "th": [
+      "取得年月",
+      "資格"
+    ],
+    "contents": [
+      {
+        "date": "2019年5月",
+        "name": "TOEIC 900点"
+      },
+      {
+        "date": "2020年2月",
+        "name": "Webクリエイター能力認定試験エキスパート"
+      },
+      {
+        "date": "2020年3月",
+        "name": "ITパスポート試験"
+      }
+    ]
+  },
+  "like": {
+    "title": "Like",
+    "contents": [
+      {
+        "icon": "mdi-noodles",
+        "label": "食べ物",
+        "list": "パスタ、ラーメン"
+      },
+      {
+        "icon": "mdi-beer",
+        "label": "飲み物",
+        "list": "コーヒー"
+      },
+      {
+        "icon": "mdi-run-fast",
+        "label": "スポーツ",
+        "list": "マラソン、登山"
+      },
+      {
+        "icon": "mdi-book",
+        "label": "本",
+        "list": "純文学、ノンフィクション"
+      },
+      {
+        "icon": "mdi-music-circle-outline",
+        "label": "音楽",
+        "list": "80年代の洋楽ロック"
+      },
+      {
+        "icon": "mdi-television-classic",
+        "label": "ドラマ",
+        "list": "相棒(season10以前)"
+      },
+      {
+        "icon": "mdi-gamepad-variant",
+        "label": "ゲーム",
+        "list": "Dead by Daylight"
+      }
+    ]
+  }
+}
