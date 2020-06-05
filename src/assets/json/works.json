@@ -42,6 +42,22 @@
     ]
   },
   {
+    "img": "img/work/portfolio.png",
+    "name": "ポートフォリオサイト",
+    "tag": [
+      "Vue.js"
+    ],
+    "dialog": false,
+    "url": "https://portfolio-public.foolish-pine.com",
+    "github": "https://github.com/foolish-pine/portfolio_public",
+    "charge": "すべて",
+    "tools": "Vue.js / Vuetify",
+    "points": [
+      "Vue.jsで作成したポートフォリオサイト（当サイト）です。",
+      "デザインまわりはVuetifyを使用して作成しました。"
+    ]
+  },
+  {
     "img": "img/work/cresta-3.png",
     "name": "架空サイトコーディング",
     "tag": [

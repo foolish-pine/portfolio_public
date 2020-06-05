@@ -170,7 +170,7 @@
                     </td>
                     <td class="subtitle-1">{{ work.tools }}</td>
                   </tr>
-                  <tr>
+                  <tr v-if="work.period">
                     <td class="subtitle-1 text-center py-5 td-left">
                       制作時間
                     </td>
