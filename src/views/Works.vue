@@ -86,11 +86,17 @@
           </v-card>
           <v-dialog v-model="work.dialog" max-width="700">
             <v-card class="pa-5 hidden-xs-only">
+              <div class="mb-3">
+                <v-spacer></v-spacer>
+                <v-icon @click.stop="work.dialog = !work.dialog"
+                  >mdi-close</v-icon
+                >
+              </div>
               <v-img
                 :src="work.dialogImg ? work.dialogImg : work.img"
-                :lazy-src="work.dialogImg"
+                :lazy-src="work.dialogImg ? work.dialogImg : work.img"
                 height="300px"
-                position="top left"
+                contain
               >
                 <template v-slot:placeholder>
                   <v-row
@@ -168,10 +174,16 @@
               </v-simple-table>
             </v-card>
             <v-card class="pa-5 hidden-sm-and-up">
+              <div class="mb-3">
+                <v-spacer></v-spacer>
+                <v-icon @click.stop="work.dialog = !work.dialog"
+                  >mdi-close</v-icon
+                >
+              </div>
               <v-img
                 :src="work.dialogImg ? work.dialogImg : work.img"
-                :lazy-src="work.dialogImg"
-                height="300px"
+                :lazy-src="work.dialogImg ? work.dialogImg : work.img"
+                height="200px"
                 contain
               >
                 <template v-slot:placeholder>
