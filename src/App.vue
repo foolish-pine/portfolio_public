@@ -52,15 +52,12 @@ export default {
 body * {
   line-height: 1.7 !important;
 }
-.container {
-  max-width: 1200px !important;
-}
 .page-title {
   font-size: 2rem;
 }
 </style>
 
-<style lang="scss" scoped>
+<style lang="scss">
 a {
   text-decoration: none;
   color: #fff !important;

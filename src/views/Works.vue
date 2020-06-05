@@ -197,7 +197,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 a {
   text-decoration: none;
 }
@@ -206,5 +206,8 @@ a {
 }
 .dialog-text {
   color: rgba(0, 0, 0, 0.87) !important;
+}
+.container {
+  max-width: 1200px !important;
 }
 </style>

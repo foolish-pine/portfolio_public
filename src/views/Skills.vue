@@ -58,4 +58,7 @@ export default {
 .img-spacer {
   width: 30px;
 }
+.container {
+  max-width: 1200px !important;
+}
 </style>

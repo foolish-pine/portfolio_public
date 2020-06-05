@@ -153,4 +153,7 @@ a {
 .tr-like {
   height: 60px;
 }
+.container {
+  max-width: 1200px !important;
+}
 </style>
