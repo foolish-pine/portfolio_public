@@ -18,11 +18,6 @@
         :to="item.link"
         class="item"
       >
-        <v-list-item-content>
-          <v-list-item-title v-if="uid" key="login">
-            <v-btn @click="doLogout" outlined>ログアウト</v-btn>
-          </v-list-item-title>
-        </v-list-item-content>
       </v-list-item>
     </v-list>
   </v-navigation-drawer>

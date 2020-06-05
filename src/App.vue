@@ -52,6 +52,9 @@ export default {
 body * {
   line-height: 1.7 !important;
 }
+.container {
+  max-width: 1200px;
+}
 </style>
 
 <style lang="scss" scoped>
