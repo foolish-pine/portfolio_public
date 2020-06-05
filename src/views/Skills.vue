@@ -11,10 +11,10 @@
       <v-row>
         <v-col
           v-for="skill in skills"
-          :key="skill.lang"
+          :key="skill.name"
           cols="12"
           xs="12"
-          sm="6"
+          md="6"
           lg="4"
         >
           <v-card class="mx-auto px-5 py-8" height="310">
@@ -28,7 +28,7 @@
               />
             </div>
             <v-card-title class="justify-center mb-3">
-              {{ skill.lang }}
+              {{ skill.name }}
             </v-card-title>
             <v-card-subtitle>
               {{ skill.text }}

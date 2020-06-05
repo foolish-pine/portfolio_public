@@ -6,7 +6,7 @@
           <img src="img/avatar-pine.png" />
         </v-list-item-avatar>
         <v-list-item-content>
-          <v-list-item-title>Pine's Portfolio</v-list-item-title>
+          <v-list-item-title>Pine's Portfolio Site</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
 
@@ -18,6 +18,7 @@
         :to="item.link"
         class="item"
       >
+        {{ item.title }}
       </v-list-item>
     </v-list>
   </v-navigation-drawer>

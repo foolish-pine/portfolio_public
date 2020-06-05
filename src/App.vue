@@ -7,7 +7,7 @@
           class="hidden-md-and-up"
         ></v-app-bar-nav-icon>
         <v-toolbar-title class="title">
-          <router-link to="/">
+          <router-link to="/home" class="link">
             Pine's Portfolio Site
           </router-link>
         </v-toolbar-title>
@@ -17,6 +17,7 @@
             :to="item.link"
             v-for="(item, index) in $store.state.items"
             :key="index"
+            class="link"
           >
             <v-btn class="title" text>
               {{ item.title }}
@@ -58,7 +59,7 @@ body * {
 </style>
 
 <style lang="scss" scoped>
-a {
+.link {
   text-decoration: none;
   color: #fff !important;
 }
