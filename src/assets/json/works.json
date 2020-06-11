@@ -139,26 +139,5 @@
       "レスポンシブ対応あり(PC、タブレット、SP)。",
       "スティッキーヘッダー、スライドショー、ハンバーガーメニューをjQueryで実装しました。"
     ]
-  },
-  {
-    "img": "img/work/cresta-1.png",
-    "name": "架空LPコーディング",
-    "tag": [
-      "HTML/CSS", "Sass", "jQuery", "Vue.js", "PHP"
-    ],
-    "dialog": false,
-    "url": "https://cresta-beginner.foolish-pine.com/",
-    "github": "https://github.com/foolish-pine/Cresta_beginner",
-    "charge": "コーディングのみ",
-    "designDistributer": "【コーディング課題】XDからコーディングをしよう【初級編】】",
-    "designURL": "https://crestadesign.org/cording-first/",
-    "tools": "HTML / CSS / Sass / jQuery/ Vue.js / PHP / Adobe XD",
-    "period": "5時間",
-    "points": [
-      "XDのデザインカンプをもとにコーディングした、ランディングページです。",
-      "レスポンシブ対応あり(PC、SP)。",
-      "スティッキーヘッダー、フェードインをjQueryで実装しました。",
-      "お問い合わせフォームをPHPで、そのバリデーション機能をVue.jsで実装しました。"
-    ]
   }
 ]

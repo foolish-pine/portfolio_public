@@ -48,12 +48,6 @@
     "text": "現時点ではお問い合わせフォームを実装できる程度です。"
   },
   {
-    "name": "Gulp",
-    "img": "img/svg/gulp.svg",
-    "imgWidth": "100px",
-    "text": "Webサイトをコーディングする際、EJSやSassのコンパイル、画像の圧縮、Lintツール等をGulpに実行させています。"
-  },
-  {
     "name": "Git / GitHub",
     "img": "img/svg/git-icon.svg",
     "img2": "img/svg/github-icon.svg",
