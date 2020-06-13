@@ -17,7 +17,8 @@
       "デザインまわりはVuetifyを使用して作成しました。",
       "カードとメモを新規作成、削除、編集することができます。",
       "ドラッグ＆ドロップでカードとメモを移動させることができます。",
-      "メモは別のカードに移動させることもできます"
+      "メモは別のカードに移動させることもできます。",
+      "ヘッダー右上の「…」からテーマカラーを設定できます。"
     ]
   },
   {
@@ -39,6 +40,26 @@
       "サイドバーから参加済みのトークルームにアクセスできます。",
       "サイドバーのJoinボタンを押し、ルームIDとパスワードを入力することで他の人が作成したルームに参加できます。",
       "サイドバーのNewボタンを押し、ルーム名、ID、パスワードを設定することで、新しいルームを作成できます。"
+    ]
+  },
+  {
+    "img": "img/work/github-readme-previewer.png",
+    "name": "マークダウンエディタ『# GitHub README Previewer』",
+    "tag": [
+      "TypeScript", "Vue.js"
+    ],
+    "dialog": false,
+    "dialogImg": "img/work/github-readme-previewer.gif",
+    "url": "https://github-readme-previewer.netlify.app/",
+    "github": "https://github.com/foolish-pine/github_readme_previewer",
+    "charge": "すべて",
+    "tools": "TypeScript / Vue.js / Vuetify",
+    "period": "5時間",
+    "points": [
+      "TypeScript + Vue.jsで作成したマークダウンエディタです。",
+      "テキストエリアにマークダウン形式で記述し、それをリアルタイムでプレビューできます。",
+      "プレビュー画面のCSSには「github-markdown.css」を使用しており、GitHubのREADME.mdそのままの見た目でプレビューできます。",
+      "(TypeScript + Vueの練習で作ってみたもののあっさり完成してしまったため、あまりTS書けませんでした…笑)"
     ]
   },
   {
