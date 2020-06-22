@@ -14,7 +14,6 @@
     "period": "40時間",
     "points": [
       "Vue.jsとFirebaseを使用した認証機能つきメモアプリです。",
-      "デザインまわりはVuetifyを使用して作成しました。",
       "カードとメモを新規作成、削除、編集することができます。",
       "ドラッグ＆ドロップでカードとメモを移動させることができます。",
       "メモは別のカードに移動させることもできます。",
@@ -36,10 +35,28 @@
     "period": "40時間",
     "points": [
       "Vue.jsとFirebaseを使用した認証機能つきチャットアプリです。",
-      "デザインまわりはVuetifyを使用して作成しました。",
       "サイドバーから参加済みのトークルームにアクセスできます。",
       "サイドバーのJoinボタンを押し、ルームIDとパスワードを入力することで他の人が作成したルームに参加できます。",
       "サイドバーのNewボタンを押し、ルーム名、ID、パスワードを設定することで、新しいルームを作成できます。"
+    ]
+  },
+  {
+    "img": "img/work/morse-code-editor.png",
+    "name": "モールス符号エディタ『Morse Code Editor』",
+    "tag": [
+      "TypeScript", "Vue.js"
+    ],
+    "dialog": false,
+    "dialogImg": "img/work/morse-code-editor.gif",
+    "url": "https://morse-code-editor.netlify.app/",
+    "github": "https://github.com/foolish-pine/morse_code_editor",
+    "charge": "すべて",
+    "tools": "TypeScript / Vue.js / Vuetify",
+    "period": "15時間",
+    "points": [
+      "TypeScript + Vue.jsで作成したモールス符号エディタです。",
+      "モールス符号⇔英文の翻訳をリアルタイムでプレビューできます。",
+      "モールス符号の入力は「キーボード入力モード」に加え、スペースキーを電鍵に見立てて入力する「電鍵モード」も用意！電鍵入力シミュレータとしても使えます。"
     ]
   },
   {
@@ -59,7 +76,7 @@
       "TypeScript + Vue.jsで作成したマークダウンエディタです。",
       "テキストエリアにマークダウン形式で記述し、それをリアルタイムでプレビューできます。",
       "プレビュー画面のCSSには「github-markdown.css」を使用しており、GitHubのREADME.mdそのままの見た目でプレビューできます。",
-      "(TypeScript + Vueの練習で作ってみたもののあっさり完成してしまったため、あまりTS書けませんでした…笑)"
+      "(TypeScript + Vueの練習で作ってみたもののあっさり完成してしまったため、あまりTS書けませんでした…)"
     ]
   },
   {
