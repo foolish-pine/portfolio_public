@@ -10,7 +10,7 @@
     "url": "https://draggable-memo-app-foolish-pine.netlify.app/",
     "github": "https://github.com/foolish-pine/trello-like-app",
     "charge": "すべて",
-    "tools": "Vue.js / Vuetify / Firebase",
+    "tools": "Vue.js / Firebase / Vuetify",
     "period": "40時間",
     "points": [
       "Vue.jsとFirebaseを使用した認証機能つきメモアプリです。",
@@ -31,7 +31,7 @@
     "url": "https://chat-app-foolish-pine.netlify.app/",
     "github": "https://github.com/foolish-pine/chat_app",
     "charge": "すべて",
-    "tools": "Vue.js / Vuetify / Firebase",
+    "tools": "Vue.js / Firebase / Vuetify",
     "period": "40時間",
     "points": [
       "Vue.jsとFirebaseを使用した認証機能つきチャットアプリです。",
