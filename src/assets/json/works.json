@@ -71,7 +71,7 @@
     "github": "https://github.com/foolish-pine/github_readme_previewer",
     "charge": "すべて",
     "tools": "TypeScript / Vue.js / Vuetify",
-    "period": "5時間",
+    "period": "10時間",
     "points": [
       "TypeScript + Vue.jsで作成したマークダウンエディタです。",
       "テキストエリアにマークダウン形式で記述し、それをリアルタイムでプレビューできます。",

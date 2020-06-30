@@ -84,7 +84,7 @@
               >
             </div>
           </v-card>
-          <v-dialog v-model="work.dialog" max-width="700">
+          <v-dialog v-model="work.dialog" max-width="720">
             <v-card class="pa-5 hidden-xs-only">
               <div class="mb-3">
                 <v-spacer></v-spacer>
