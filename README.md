@@ -1,4 +1,7 @@
 # ポートフォリオサイト
+サイトは[こちら](https://portfolio-public.foolish-pine.com/home)です。
+<br>
+<br>
 
 ## ポイント
 - Vue.jsで作成したポートフォリオサイトです。
