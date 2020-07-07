@@ -18,14 +18,23 @@
             <p class="mb-3 headline font-weight-bold text-center">
               {{ profile.about.name }}
             </p>
-            <div class="text-center">
-              <a href="https://twitter.com/foolish_pine">
-                <v-icon class="mdi-48px" color="#55acee">mdi-twitter</v-icon>
-              </a>
-              <a href="https://github.com/foolish-pine" class="mx-3">
-                <v-icon class="mdi-48px" color="#0a0a0a">mdi-github</v-icon>
-              </a>
-            </div>
+            <v-col cols="12">
+              <v-row justify="center" align="center">
+                <a href="https://twitter.com/foolish_pine">
+                  <v-icon class="mdi-48px" color="#55acee">mdi-twitter</v-icon>
+                </a>
+                <a href="https://github.com/foolish-pine" class="mx-3">
+                  <v-icon class="mdi-48px" color="#0a0a0a">mdi-github</v-icon>
+                </a>
+                <a href="https://leetcode.com/foolish_pine/">
+                  <img
+                    src="img/leetcode.png"
+                    height="39px"
+                    style="vertical-align:bottom"
+                  />
+                </a>
+              </v-row>
+            </v-col>
           </v-col>
           <v-col cols="12" xs="12" lg="6">
             <div v-for="content in profile.about.contents" :key="content.label">
