@@ -7,7 +7,7 @@
           class="hidden-md-and-up"
         ></v-app-bar-nav-icon>
         <v-toolbar-title class="title">
-          <router-link to="/home" class="link">
+          <router-link to="/" class="link">
             Pine's Portfolio Site
           </router-link>
         </v-toolbar-title>
