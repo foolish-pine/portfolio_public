@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style="background-color: #fafafa;">
     <header>
       <v-app-bar app dark color="#191970" height="80">
         <v-app-bar-nav-icon

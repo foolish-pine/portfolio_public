@@ -6,7 +6,7 @@
           <h2 class="my-10 text-center page-title">Profile</h2>
         </v-col>
       </v-row>
-      <v-card class="mx-auto pa-5">
+      <v-card class="mx-auto pa-5" elevation="7">
         <v-row class="align-center">
           <v-spacer></v-spacer>
           <v-col cols="12" xs="12" lg="4">
@@ -71,7 +71,7 @@
       <v-row>
         <v-col cols="12" xs="12" lg="6">
           <div class="mt-10">
-            <v-card class="mx-auto pa-5">
+            <v-card class="mx-auto pa-5" elevation="7">
               <h2 class="text-center">{{ profile.motivation.title }} 🏃</h2>
               <div>
                 <v-card-text class="body-1">
@@ -81,7 +81,7 @@
             </v-card>
           </div>
           <div class="mt-10">
-            <v-card class="mx-auto pa-5">
+            <v-card class="mx-auto pa-5" elevation="7">
               <h2 class="mb-3 text-center">
                 {{ profile.qualifications.title }} 📃
               </h2>
@@ -111,7 +111,7 @@
           </div>
         </v-col>
         <v-col class="my-10" cols="12" xs="12" lg="6">
-          <v-card class="mx-auto pa-5">
+          <v-card class="mx-auto pa-5" elevation="7">
             <h2 class="mb-3 text-center">{{ profile.like.title }} 👍</h2>
             <v-simple-table>
               <tbody>

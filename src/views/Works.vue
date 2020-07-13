@@ -15,7 +15,12 @@
           md="6"
           lg="4"
         >
-          <v-card class="mx-auto" height="310" @click.stop="work.dialog = true">
+          <v-card
+            class="mx-auto"
+            height="310"
+            @click.stop="work.dialog = true"
+            elevation="7"
+          >
             <v-img
               :src="work.img"
               :lazy-src="work.img"

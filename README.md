@@ -1,5 +1,5 @@
 # ポートフォリオサイト
-サイトは[こちら](https://portfolio-public.foolish-pine.com/home)です。
+サイトは[こちら](https://portfolio-public.foolish-pine.com/)です。
 <br>
 <br>
 

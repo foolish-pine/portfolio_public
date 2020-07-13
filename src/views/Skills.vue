@@ -17,7 +17,7 @@
           md="6"
           lg="4"
         >
-          <v-card class="mx-auto px-5 py-8" height="310">
+          <v-card class="mx-auto px-5 py-8" height="310" elevation="7">
             <div class="d-flex justify-center img-container">
               <img :src="skill.img" :width="skill.imgWidth" />
               <div v-if="skill.img2" class="img-spacer"></div>
