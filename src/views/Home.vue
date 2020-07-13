@@ -1,6 +1,6 @@
 <template>
   <v-container class="fv">
-    <h1 class="display-3">
+    <h1 class="display-3" style="font-family: Lato, Roboto !important;">
       Pine's Portfolio Site.
     </h1>
   </v-container>
@@ -16,8 +16,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-h1 {
-  text-align: center;
 }
 </style>

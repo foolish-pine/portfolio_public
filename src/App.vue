@@ -53,6 +53,14 @@ export default {
 body * {
   line-height: 1.7 !important;
 }
+// Web Fontのちらつき対策
+html {
+  visibility: hidden;
+}
+html.wf-active,
+html.loading-delay {
+  visibility: visible;
+}
 .page-title {
   font-size: 2rem;
 }
