@@ -6,8 +6,8 @@
     "contents": [
       {
         "icon": "mdi-cake-variant",
-        "label": "誕生年",
-        "text": "1994年(26歳)"
+        "label": "年齢",
+        "text": "26歳"
       },
       {
         "icon": "mdi-home",
@@ -17,7 +17,7 @@
       {
         "icon": "mdi-school",
         "label": "最終学歴",
-        "text": "修士(理学)"
+        "text": "修士 (理学・生物系)"
       }
     ],
     "comment": "大学院修了後、会社員、団体職員を経て、現在フロントエンドエンジニアを目指して勉強中の身です。最近はJavaScript、TypeScript、Vue.js、Node.jsを学習中です。"

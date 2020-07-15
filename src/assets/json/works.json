@@ -1,7 +1,8 @@
 [
   {
     "img": "img/work/my-memo-board.png",
-    "name": "メモアプリ『My Memo Board』",
+    "title": "My Memo Board",
+    "subtitle": "ドラッグ&ドロップメモアプリ",
     "tag": [
       "Vue.js"
     ],
@@ -22,7 +23,8 @@
   },
   {
     "img": "img/work/chat-app.png",
-    "name": "チャットアプリ『Pine's Chat App』",
+    "title": "Pine's Chat App",
+    "subtitle": "リアルタイムチャットアプリ",
     "tag": [
       "Vue.js"
     ],
@@ -42,7 +44,8 @@
   },
   {
     "img": "img/work/morse-code-editor.png",
-    "name": "モールス符号エディタ『Morse Code Editor』",
+    "title": "Morse Code Editor",
+    "subtitle": "モールス符号エディタ",
     "tag": [
       "TypeScript", "Vue.js"
     ],
@@ -61,7 +64,8 @@
   },
   {
     "img": "img/work/github-readme-previewer.png",
-    "name": "マークダウンエディタ『# GitHub README Previewer』",
+    "title": "# GitHub README Previewer",
+    "subtitle": "マークダウンエディタ",
     "tag": [
       "TypeScript", "Vue.js"
     ],
@@ -82,7 +86,8 @@
   },
   {
     "img": "img/work/portfolio.png",
-    "name": "ポートフォリオサイト",
+    "title": "Pine's Portfolio Site",
+    "subtitle": "ポートフォリオサイト",
     "tag": [
       "Vue.js"
     ],
@@ -98,7 +103,7 @@
   },
   {
     "img": "img/work/cresta-3.png",
-    "name": "架空サイトコーディング",
+    "title": "架空サイトコーディング",
     "tag": [
       "HTML/CSS", "Sass", "jQuery", "PHP"
     ],
@@ -119,7 +124,7 @@
   },
   {
     "img": "img/work/cresta-2.png",
-    "name": "架空サイトコーディング",
+    "title": "架空サイトコーディング",
     "tag": [
       "HTML/CSS", "Sass", "jQuery", "PHP"
     ],
@@ -140,7 +145,7 @@
   },
   {
     "img": "img/work/daily-trial-2nd.png",
-    "name": "架空LPコーディング",
+    "title": "架空LPコーディング",
     "tag": [
       "HTML/CSS", "Sass", "jQuery", "PHP"
     ],
@@ -161,7 +166,7 @@
   },
   {
     "img": "img/work/KAGU.png",
-    "name": "架空LPコーディング",
+    "title": "架空LPコーディング",
     "tag": [
       "HTML/CSS", "Sass", "jQuery"
     ],
