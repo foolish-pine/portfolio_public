@@ -4,17 +4,17 @@
     "title": "My Memo Board",
     "subtitle": "ドラッグ&ドロップメモアプリ",
     "tag": [
-      "Vue.js"
+      "TypeScript", "Vue.js"
     ],
     "dialog": false,
     "dialogImg": "img/work/my-memo-board.gif",
     "url": "https://draggable-memo-app-foolish-pine.netlify.app/",
     "github": "https://github.com/foolish-pine/trello-like-app",
     "charge": "すべて",
-    "tools": "Vue.js / Firebase / Vuetify",
-    "period": "40時間",
+    "tools": "TypeScript / Vue.js / Firebase / Vuetify",
+    "period": "50時間",
     "points": [
-      "Vue.jsとFirebaseを使用した認証機能つきメモアプリです。",
+      "TypeScript + Vue.js + Firebaseで作成した認証機能つきメモアプリです。",
       "カードとメモを新規作成、削除、編集することができます。",
       "ドラッグ＆ドロップでカードとメモを移動させることができます。",
       "メモは別のカードに移動させることもできます。",
@@ -34,7 +34,7 @@
     "github": "https://github.com/foolish-pine/chat_app",
     "charge": "すべて",
     "tools": "Vue.js / Firebase / Vuetify",
-    "period": "40時間",
+    "period": "45時間",
     "points": [
       "Vue.jsとFirebaseを使用した認証機能つきチャットアプリです。",
       "サイドバーから参加済みのトークルームにアクセスできます。",
@@ -98,7 +98,8 @@
     "tools": "Vue.js / Vuetify",
     "points": [
       "Vue.jsで作成したポートフォリオサイト（当サイト）です。",
-      "デザインまわりはVuetifyを使用して作成しました。"
+      "デザインまわりはVuetifyを使用しました。",
+      "静的なコンテンツをJSONファイルに分離することで、編集や更新が容易になるようにしました。"
     ]
   },
   {
