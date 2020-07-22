@@ -26,17 +26,17 @@
     "title": "Pine's Chat App",
     "subtitle": "リアルタイムチャットアプリ",
     "tag": [
-      "Vue.js"
+      "TypeScript", "Vue.js"
     ],
     "dialog": false,
     "dialogImg": "img/work/chat-app.gif",
     "url": "https://chat-app-foolish-pine.netlify.app/",
     "github": "https://github.com/foolish-pine/chat_app",
     "charge": "すべて",
-    "tools": "Vue.js / Firebase / Vuetify",
-    "period": "45時間",
+    "tools": "TypeScript / Vue.js / Firebase / Vuetify",
+    "period": "60時間",
     "points": [
-      "Vue.jsとFirebaseを使用した認証機能つきチャットアプリです。",
+      "TypeScript + Vue.js + Firebaseで作成した認証機能つきチャットアプリです。",
       "サイドバーから参加済みのトークルームにアクセスできます。",
       "サイドバーのJoinボタンを押し、ルームIDとパスワードを入力することで他の人が作成したルームに参加できます。",
       "サイドバーのNewボタンを押し、ルーム名、ID、パスワードを設定することで、新しいルームを作成できます。"
