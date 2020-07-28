@@ -117,7 +117,9 @@
                   </v-row>
                 </template>
               </v-img>
-              <v-card-title class="headline py-5">{{ work.title }}</v-card-title>
+              <v-card-title class="headline py-5">{{
+                work.title
+              }}</v-card-title>
               <v-card-subtitle>{{ work.subtitle }}</v-card-subtitle>
               <v-simple-table>
                 <tbody>
@@ -206,7 +208,9 @@
                   </v-row>
                 </template>
               </v-img>
-              <v-card-title class="headline py-5">{{ work.title }}</v-card-title>
+              <v-card-title class="headline py-5">{{
+                work.title
+              }}</v-card-title>
               <v-card-subtitle>{{ work.subtitle }}</v-card-subtitle>
               <div class="pb-5">
                 <div class="title py-5">ポイント</div>

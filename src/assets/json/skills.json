@@ -3,19 +3,19 @@
     "name": "JavaScript",
     "img": "img/svg/javascript.svg",
     "imgWidth": "100px",
-    "text": "基本的な部分の学習もしつつ、TypeScriptやフレームワークであるVue.jsの勉強を進めています。"
+    "text": "基本的な部分を学習しつつ、TypeScript、Vue.js、Node.jsの勉強も進めています。"
   },
   {
     "name": "TypeScript",
     "img": "img/svg/typescript-icon.svg",
     "imgWidth": "100px",
-    "text": "PureなJavaScriptと平行して学習を進めています。"
+    "text": "JavaScriptと平行して学習を進めています。"
   },
   {
     "name": "Vue.js",
     "img": "img/svg/vue.svg",
     "imgWidth": "100px",
-    "text": "コーディングしたサイトに組み込んでみたり、Vue CLIを使用してSPAを自作したりしています。当サイトはVue.jsでつくられています。"
+    "text": "Vue CLIを使用してアプリを自作して学習しています。当サイトはVue.jsでつくられています。"
   },
   {
     "name": "HTML5",
