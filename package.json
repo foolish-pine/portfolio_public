@@ -1,5 +1,5 @@
 {
-  "name": "myportfolio",
+  "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -46,7 +46,7 @@
       "parser": "babel-eslint"
     },
     "rules": {
-      "quotes": ["warn", "double"]   
+      "quotes": ["warn", "double"]
     }
   },
   "browserslist": [
