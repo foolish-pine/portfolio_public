@@ -2,10 +2,7 @@
   <v-app style="background-color: #fafafa;">
     <header>
       <v-app-bar app dark color="#191970" height="80">
-        <v-app-bar-nav-icon
-          @click.stop="toggleSideMenu"
-          class="hidden-md-and-up"
-        ></v-app-bar-nav-icon>
+        <v-app-bar-nav-icon @click.stop="toggleSideMenu" class="hidden-md-and-up"></v-app-bar-nav-icon>
         <v-toolbar-title class="title">
           <router-link to="/" class="link">
             Pine's Portfolio Site
@@ -13,12 +10,7 @@
         </v-toolbar-title>
         <v-spacer></v-spacer>
         <div class="hidden-sm-and-down">
-          <router-link
-            :to="item.link"
-            v-for="(item, index) in $store.state.items"
-            :key="index"
-            class="link"
-          >
+          <router-link :to="item.link" v-for="(item, index) in $store.state.items" :key="index" class="link">
             <v-btn class="title" text>
               {{ item.title }}
             </v-btn>

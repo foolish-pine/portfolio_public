@@ -27,11 +27,7 @@
                   <v-icon class="mdi-48px" color="#0a0a0a">mdi-github</v-icon>
                 </a>
                 <a href="https://leetcode.com/foolish_pine/">
-                  <img
-                    src="img/leetcode.png"
-                    height="39px"
-                    style="vertical-align:bottom"
-                  />
+                  <img src="img/leetcode.png" height="39px" style="vertical-align:bottom" />
                 </a>
               </v-row>
             </v-col>
@@ -40,23 +36,14 @@
             <div v-for="content in profile.about.contents" :key="content.label">
               <v-row class="align-center">
                 <v-col cols="12" xs="12" lg="3" class="text-center pa-1">
-                  <v-chip
-                    class="ma-2 v-chip-about"
-                    color="#2d2d70"
-                    text-color="white"
-                  >
+                  <v-chip class="ma-2 v-chip-about" color="#2d2d70" text-color="white">
                     <v-avatar left>
                       <v-icon>{{ content.icon }}</v-icon>
                     </v-avatar>
                     {{ content.label }}
                   </v-chip>
                 </v-col>
-                <v-col
-                  cols="12"
-                  xs="12"
-                  lg="9"
-                  class="text-center text-lg-left pa-1"
-                >
+                <v-col cols="12" xs="12" lg="9" class="text-center text-lg-left pa-1">
                   {{ content.text }}
                 </v-col>
               </v-row>
@@ -82,9 +69,7 @@
           </div>
           <div class="mt-10">
             <v-card class="mx-auto pa-5" elevation="7">
-              <h2 class="mb-3 text-center">
-                {{ profile.qualifications.title }} 📃
-              </h2>
+              <h2 class="mb-3 text-center">{{ profile.qualifications.title }} 📃</h2>
               <v-simple-table>
                 <thead>
                   <tr class="col-xs-4">
@@ -97,11 +82,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr
-                    v-for="content in profile.qualifications.contents"
-                    :key="content.name"
-                    class="col-xs-8"
-                  >
+                  <tr v-for="content in profile.qualifications.contents" :key="content.name" class="col-xs-8">
                     <td class="body-1">{{ content.date }}</td>
                     <td class="body-1">{{ content.name }}</td>
                   </tr>
@@ -115,11 +96,7 @@
             <h2 class="mb-3 text-center">{{ profile.like.title }} 👍</h2>
             <v-simple-table>
               <tbody>
-                <tr
-                  v-for="content in profile.like.contents"
-                  :key="content.label"
-                  class="tr-like"
-                >
+                <tr v-for="content in profile.like.contents" :key="content.label" class="tr-like">
                   <td>
                     <v-chip class="ma-2" color="#2d2d70" text-color="white">
                       <v-avatar left>

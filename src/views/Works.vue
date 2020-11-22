@@ -7,32 +7,12 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col
-          v-for="work in works"
-          :key="work.img"
-          cols="12"
-          xs="12"
-          md="6"
-          lg="4"
-        >
-          <v-card
-            class="mx-auto"
-            height="310"
-            @click.stop="work.dialog = true"
-            elevation="7"
-          >
-            <v-img
-              :src="work.img"
-              :lazy-src="work.img"
-              height="170px"
-              position="top center"
-            >
+        <v-col v-for="work in works" :key="work.img" cols="12" xs="12" md="6" lg="4">
+          <v-card class="mx-auto" height="310" @click.stop="work.dialog = true" elevation="7">
+            <v-img :src="work.img" :lazy-src="work.img" height="170px" position="top center">
               <template v-slot:placeholder>
                 <v-row class="fill-height ma-0" align="center" justify="center">
-                  <v-progress-circular
-                    indeterminate
-                    color="grey lighten-5"
-                  ></v-progress-circular>
+                  <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                 </v-row>
               </template>
             </v-img>
@@ -80,12 +60,7 @@
                 text-color="white"
                 >Vue.js</v-chip
               >
-              <v-chip
-                v-if="work.tag.includes('PHP')"
-                class="caption mr-2 mb-2"
-                small
-                color="#6181b6"
-                text-color="white"
+              <v-chip v-if="work.tag.includes('PHP')" class="caption mr-2 mb-2" small color="#6181b6" text-color="white"
                 >PHP</v-chip
               >
             </div>
@@ -94,9 +69,7 @@
             <v-card class="pa-5 hidden-xs-only">
               <div class="mb-3">
                 <v-spacer></v-spacer>
-                <v-icon @click.stop="work.dialog = !work.dialog"
-                  >mdi-close</v-icon
-                >
+                <v-icon @click.stop="work.dialog = !work.dialog">mdi-close</v-icon>
               </div>
               <v-img
                 :src="work.dialogImg ? work.dialogImg : work.img"
@@ -105,21 +78,12 @@
                 contain
               >
                 <template v-slot:placeholder>
-                  <v-row
-                    class="fill-height ma-0"
-                    align="center"
-                    justify="center"
-                  >
-                    <v-progress-circular
-                      indeterminate
-                      color="grey lighten-5"
-                    ></v-progress-circular>
+                  <v-row class="fill-height ma-0" align="center" justify="center">
+                    <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                   </v-row>
                 </template>
               </v-img>
-              <v-card-title class="headline py-5">{{
-                work.title
-              }}</v-card-title>
+              <v-card-title class="headline py-5">{{ work.title }}</v-card-title>
               <v-card-subtitle>{{ work.subtitle }}</v-card-subtitle>
               <v-simple-table>
                 <tbody>
@@ -129,11 +93,7 @@
                     </td>
                     <td class="subtitle-1 py-5">
                       <ul>
-                        <li
-                          v-for="(point, index) in work.points"
-                          :key="index"
-                          class="pb-4"
-                        >
+                        <li v-for="(point, index) in work.points" :key="index" class="pb-4">
                           {{ point }}
                         </li>
                       </ul>
@@ -185,9 +145,7 @@
             <v-card class="pa-5 hidden-sm-and-up">
               <div class="mb-3">
                 <v-spacer></v-spacer>
-                <v-icon @click.stop="work.dialog = !work.dialog"
-                  >mdi-close</v-icon
-                >
+                <v-icon @click.stop="work.dialog = !work.dialog">mdi-close</v-icon>
               </div>
               <v-img
                 :src="work.dialogImg ? work.dialogImg : work.img"
@@ -196,30 +154,17 @@
                 contain
               >
                 <template v-slot:placeholder>
-                  <v-row
-                    class="fill-height ma-0"
-                    align="center"
-                    justify="center"
-                  >
-                    <v-progress-circular
-                      indeterminate
-                      color="grey lighten-5"
-                    ></v-progress-circular>
+                  <v-row class="fill-height ma-0" align="center" justify="center">
+                    <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                   </v-row>
                 </template>
               </v-img>
-              <v-card-title class="headline py-5">{{
-                work.title
-              }}</v-card-title>
+              <v-card-title class="headline py-5">{{ work.title }}</v-card-title>
               <v-card-subtitle>{{ work.subtitle }}</v-card-subtitle>
               <div class="pb-5">
                 <div class="title py-5">ポイント</div>
                 <ul class="subtitle-1">
-                  <li
-                    v-for="(point, index) in work.points"
-                    :key="index"
-                    class="pb-4"
-                  >
+                  <li v-for="(point, index) in work.points" :key="index" class="pb-4">
                     {{ point }}
                   </li>
                 </ul>

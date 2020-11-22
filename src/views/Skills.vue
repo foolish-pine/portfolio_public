@@ -9,23 +9,12 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col
-          v-for="skill in skills"
-          :key="skill.name"
-          cols="12"
-          xs="12"
-          md="6"
-          lg="4"
-        >
+        <v-col v-for="skill in skills" :key="skill.name" cols="12" xs="12" md="6" lg="4">
           <v-card class="mx-auto px-5 py-8" height="310" elevation="7">
             <div class="d-flex justify-center img-container">
               <img :src="skill.img" :width="skill.imgWidth" />
               <div v-if="skill.img2" class="img-spacer"></div>
-              <img
-                v-if="skill.img2"
-                :src="skill.img2"
-                :width="skill.imgWidth"
-              />
+              <img v-if="skill.img2" :src="skill.img2" :width="skill.imgWidth" />
             </div>
             <v-card-title class="justify-center mb-3">
               {{ skill.name }}

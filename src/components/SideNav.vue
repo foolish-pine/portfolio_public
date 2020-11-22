@@ -12,12 +12,7 @@
 
       <v-divider></v-divider>
 
-      <v-list-item
-        v-for="(item, index) in $store.state.items"
-        :key="index"
-        :to="item.link"
-        class="item"
-      >
+      <v-list-item v-for="(item, index) in $store.state.items" :key="index" :to="item.link" class="item">
         {{ item.title }}
       </v-list-item>
     </v-list>
