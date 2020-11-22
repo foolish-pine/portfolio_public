@@ -3,7 +3,10 @@
     <v-container>
       <v-row>
         <v-col cols="12" xs="12">
-          <h2 class="my-10 text-center page-title">Works</h2>
+          <h2 class="mt-10 text-center page-title">Works</h2>
+          <p class="mb-10 text-center title">
+            学習のアウトプットも兼ねて作成した個人制作物です。
+          </p>
         </v-col>
       </v-row>
       <v-row>
