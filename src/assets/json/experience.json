@@ -1,0 +1,65 @@
+[
+  {
+    "name": "HTML5",
+    "img": "img/svg/html-5.svg",
+    "imgWidth": "100px",
+    "text": "セマンティックなマークアップを意識してコーディングしています。テンプレートエンジンはEJSを使用しています。"
+  },
+  {
+    "name": "CSS3",
+    "img": "img/svg/css-3.svg",
+    "imgWidth": "100px",
+    "text": "CSSの設計手法はBEMを使用。わかりやすく変更に強い堅牢なつくりにすることを心がけています。"
+  },
+  {
+    "name": "Sass",
+    "img": "img/svg/sass.svg",
+    "imgWidth": "100px",
+    "text": "変数やファイル分割を利用してメンテナンス性のよいコードを書くようにしています。"
+  },
+  {
+    "name": "JavaScript",
+    "img": "img/svg/javascript.svg",
+    "imgWidth": "100px",
+    "text": "基本的な部分は習得済みです。TypeScript、Vue.js、Node.jsの学習も進めています。"
+  },
+  {
+    "name": "jQuery",
+    "img": "img/svg/jquery.svg",
+    "imgWidth": "180px",
+    "text": "ハンバーガーメニューやスライダー等Webサイトで頻出のものは実装できます。"
+  },
+  {
+    "name": "PHP",
+    "img": "img/svg/php.svg",
+    "imgWidth": "100px",
+    "text": "フルスクラッチではお問い合わせフォームを実装できる程度です。業務ではWordPressを触っています。"
+  },
+  {
+    "name": "WordPress",
+    "img": "img/svg/wordpress.svg",
+    "imgWidth": "100px",
+    "text": "制作した静的サイトにWordPressを導入することが多いです。"
+  },
+  {
+    "name": "Gulp",
+    "img": "img/svg/gulp.svg",
+    "imgWidth": "100px",
+    "text": "タスクランナーとしてGulpを使用しています。"
+  },
+  {
+    "name": "XD / Photoshop / Illustrator",
+    "img": "img/svg/xd.svg",
+    "img2": "img/svg/photoshop.svg",
+    "img3": "img/svg/illustrator.svg",
+    "imgWidth": "60px",
+    "text": "デザインカンプからの画像の切り出し・コーディングに必要な値の取得など基本的な操作はできます。"
+  },
+  {
+    "name": "Git / GitHub",
+    "img": "img/svg/git-icon.svg",
+    "img2": "img/svg/github-icon.svg",
+    "imgWidth": "80px",
+    "text": "バージョン管理のためにGitとGitHubを使用しています。"
+  }
+]

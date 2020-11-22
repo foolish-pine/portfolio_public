@@ -1,0 +1,14 @@
+[
+  {
+    "name": "TypeScript",
+    "img": "img/svg/typescript-icon.svg",
+    "imgWidth": "100px",
+    "text": "JavaScriptと平行して学習を進めています。"
+  },
+  {
+    "name": "Vue.js",
+    "img": "img/svg/vue.svg",
+    "imgWidth": "100px",
+    "text": "Vue CLIを使用してアプリを自作して学習しています。当サイトはVue.jsでつくられています。"
+  }
+]

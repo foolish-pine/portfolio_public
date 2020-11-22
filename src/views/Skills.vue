@@ -1,16 +1,19 @@
 <template>
   <v-content class="mb-10">
-    <v-container>
+    <v-container class="mb-10">
       <v-row>
         <v-col cols="12" xs="12">
-          <h2 class="my-10 text-center page-title">
-            Skills I'm refining now
+          <h1 class="mt-10 mb-5 text-center page-title">
+            Skills
+          </h1>
+          <h2 class="mb-5 text-center">
+            実務経験あり
           </h2>
         </v-col>
       </v-row>
       <v-row>
         <v-col
-          v-for="skill in skills"
+          v-for="skill in experience"
           :key="skill.name"
           cols="12"
           xs="12"
@@ -24,6 +27,55 @@
               <img
                 v-if="skill.img2"
                 :src="skill.img2"
+                :width="skill.imgWidth"
+              />
+              <div v-if="skill.img3" class="img-spacer"></div>
+              <img
+                v-if="skill.img3"
+                :src="skill.img3"
+                :width="skill.imgWidth"
+              />
+            </div>
+            <v-card-title class="justify-center mb-3">
+              {{ skill.name }}
+            </v-card-title>
+            <v-card-subtitle>
+              {{ skill.text }}
+            </v-card-subtitle>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-container>
+      <v-row>
+        <v-col cols="12" xs="12">
+          <h2 class="mb-5 text-center">
+            独学
+          </h2>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col
+          v-for="skill in inexperience"
+          :key="skill.name"
+          cols="12"
+          xs="12"
+          md="6"
+          lg="4"
+        >
+          <v-card class="mx-auto px-5 py-8" height="310" elevation="7">
+            <div class="d-flex justify-center img-container">
+              <img :src="skill.img" :width="skill.imgWidth" />
+              <div v-if="skill.img2" class="img-spacer"></div>
+              <img
+                v-if="skill.img2"
+                :src="skill.img2"
+                :width="skill.imgWidth"
+              />
+              <div v-if="skill.img3" class="img-spacer"></div>
+              <img
+                v-if="skill.img3"
+                :src="skill.img3"
                 :width="skill.imgWidth"
               />
             </div>
@@ -41,11 +93,13 @@
 </template>
 
 <script>
-import skills from "../assets/json/skills.json";
+import inexperience from "../assets/json/inexperience.json";
+import experience from "../assets/json/experience.json";
 export default {
   data: function() {
     return {
-      skills: skills
+      inexperience: inexperience,
+      experience: experience
     };
   }
 };
