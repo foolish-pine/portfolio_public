@@ -6,6 +6,12 @@
     "text": "JavaScriptと平行して学習を進めています。"
   },
   {
+    "name": "React",
+    "img": "img/svg/react.svg",
+    "imgWidth": "100px",
+    "text": "最近勉強中です。JavaScriptベースでUIを書けるので気に入っています。"
+  },
+  {
     "name": "Vue.js",
     "img": "img/svg/vue.svg",
     "imgWidth": "100px",

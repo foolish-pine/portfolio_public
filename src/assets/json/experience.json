@@ -21,7 +21,7 @@
     "name": "JavaScript",
     "img": "img/svg/javascript.svg",
     "imgWidth": "100px",
-    "text": "基本的な部分は習得済みです。TypeScript、Vue.js、Node.jsの学習も進めています。"
+    "text": "TypeScript、Vue.js、React、Node.jsの学習も進めています。"
   },
   {
     "name": "jQuery",
@@ -39,7 +39,7 @@
     "name": "WordPress",
     "img": "img/svg/wordpress.svg",
     "imgWidth": "100px",
-    "text": "制作した静的サイトにWordPressを導入することが多いです。"
+    "text": "静的サイトのコーディングからWordPressの導入まで一貫して行うことができます。"
   },
   {
     "name": "Gulp",
