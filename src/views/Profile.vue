@@ -35,7 +35,7 @@
                 <v-col cols="12" xs="12" lg="3" class="text-center pa-1">
                   <v-chip
                     class="ma-2 v-chip-about"
-                    color="#2d2d70"
+                    color="#41b883"
                     text-color="white"
                   >
                     <v-avatar left>
@@ -104,7 +104,7 @@
                   class="tr-like"
                 >
                   <td>
-                    <v-chip class="ma-2" color="#2d2d70" text-color="white">
+                    <v-chip class="ma-2" color="#41b883" text-color="white">
                       <v-avatar left>
                         <v-icon>{{ content.icon }}</v-icon>
                       </v-avatar>

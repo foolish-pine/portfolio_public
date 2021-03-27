@@ -1,7 +1,7 @@
 <template>
   <v-app style="background-color: #fafafa;">
     <header>
-      <v-app-bar app dark color="#191970" height="80">
+      <v-app-bar app dark color="#41b883" height="80">
         <v-app-bar-nav-icon
           @click.stop="toggleSideMenu"
           class="hidden-md-and-up"
