@@ -4,7 +4,7 @@
       <v-row>
         <v-col cols="12" xs="12">
           <h1 class="mt-10 mb-5 text-center page-title">
-            Skills
+            スキル
           </h1>
           <h2 class="mb-5 text-center">
             実務経験あり
@@ -50,7 +50,7 @@
       <v-row>
         <v-col cols="12" xs="12">
           <h2 class="mb-5 text-center">
-            独学
+            独学のみ
           </h2>
         </v-col>
       </v-row>

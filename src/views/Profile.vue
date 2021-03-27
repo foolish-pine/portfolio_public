@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col cols="12" xs="12">
-          <h1 class="my-10 text-center page-title">Profile</h1>
+          <h1 class="my-10 text-center page-title">プロフィール</h1>
         </v-col>
       </v-row>
       <v-card class="mx-auto pa-5" elevation="7">
