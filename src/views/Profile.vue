@@ -7,55 +7,29 @@
         </v-col>
       </v-row>
       <v-card class="mx-auto pa-5" elevation="7">
-        <v-row class="align-center">
+        <v-row>
           <v-spacer></v-spacer>
           <v-col cols="12" xs="12" lg="4">
             <div class="d-flex justify-center">
-              <v-avatar class="mb-5" size="200">
+              <v-avatar size="200">
                 <img :src="profile.about.avatar" />
               </v-avatar>
             </div>
-            <p class="mb-3 headline font-weight-bold text-center">
-              {{ profile.about.name }}
-            </p>
-            <v-col cols="12">
-              <v-row justify="center" align="center">
-                <a href="https://twitter.com/foolish_pine">
-                  <v-icon class="mdi-48px" color="#55acee">mdi-twitter</v-icon>
-                </a>
-                <a href="https://github.com/foolish-pine" class="mx-3">
-                  <v-icon class="mdi-48px" color="#0a0a0a">mdi-github</v-icon>
-                </a>
-              </v-row>
-            </v-col>
           </v-col>
           <v-col cols="12" xs="12" lg="6">
-            <div v-for="content in profile.about.contents" :key="content.label">
-              <v-row class="align-center">
-                <v-col cols="12" xs="12" lg="3" class="text-center pa-1">
-                  <v-chip
-                    class="ma-2 v-chip-about"
-                    color="#41b883"
-                    text-color="white"
-                  >
-                    <v-avatar left>
-                      <v-icon>{{ content.icon }}</v-icon>
-                    </v-avatar>
-                    {{ content.label }}
-                  </v-chip>
-                </v-col>
-                <v-col
-                  cols="12"
-                  xs="12"
-                  lg="9"
-                  class="text-center text-lg-left pa-1"
-                >
-                  {{ content.text }}
-                </v-col>
-              </v-row>
-            </div>
-            <div class="mt-5 mx-1">
+            <p class="mb-2 headline font-weight-bold">
+              🍍{{ profile.about.name }}
+            </p>
+            <div>
               {{ profile.about.comment }}
+            </div>
+            <div>
+              <a href="https://twitter.com/foolish_pine">
+                <v-icon class="mdi-36px" color="#55acee">mdi-twitter</v-icon>
+              </a>
+              <a href="https://github.com/foolish-pine" class="mx-3">
+                <v-icon class="mdi-36px" color="#0a0a0a">mdi-github</v-icon>
+              </a>
             </div>
           </v-col>
           <v-spacer></v-spacer>

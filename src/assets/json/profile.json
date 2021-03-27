@@ -3,24 +3,7 @@
     "title": "About",
     "avatar": "img/avatar-pine.png",
     "name": "ぱいん",
-    "contents": [
-      {
-        "icon": "mdi-cake-variant",
-        "label": "年齢",
-        "text": "26歳"
-      },
-      {
-        "icon": "mdi-home",
-        "label": "出身地",
-        "text": "愛知県"
-      },
-      {
-        "icon": "mdi-school",
-        "label": "最終学歴",
-        "text": "修士 (理学・生物系)"
-      }
-    ],
-    "comment": "大学院修了後、会社員、団体職員を経て、Web制作会社でコード書いてます。最近はJavaScript（TypeScript、Vue.js、Node.js）とWordPressを強化中です。アウトプットも兼ねて色々つくってます。基本情報技術者試験の勉強もしています。"
+    "comment": "1994年生まれ。愛知県出身。大学院修了後、会社員、団体職員を経て、現在Web制作会社でコード書いてます。最近はJavaScript（TypeScript、React、Node.js）とWordPressを強化中です。アウトプットも兼ねて色々つくってます。ご連絡はTwitterのDMまで。"
   },
   "qualifications": {
     "title": "資格",
@@ -64,7 +47,7 @@
       {
         "icon": "mdi-book",
         "label": "本",
-        "list": "純文学、ノンフィクション"
+        "list": "純文学、ノンフィクション、新書"
       },
       {
         "icon": "mdi-music-circle-outline",
@@ -74,7 +57,7 @@
       {
         "icon": "mdi-television-classic",
         "label": "ドラマ",
-        "list": "相棒(season10以前)"
+        "list": "相棒(特に亀山時代)"
       },
       {
         "icon": "mdi-gamepad-variant",
