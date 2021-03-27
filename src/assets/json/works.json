@@ -1,5 +1,25 @@
 [
   {
+    "img": "img/work/concentration-game.png",
+    "title": "神経衰弱",
+    "subtitle": "Vue.jsでつくる神経衰弱ゲーム",
+    "tag": [
+      "TypeScript", "Vue.js"
+    ],
+    "dialog": false,
+    "dialogImg": "img/work/concentration-game.gif",
+    "url": "https://concentration-game-foolish-pine.netlify.app",
+    "github": "https://github.com/foolish-pine/concentration-game",
+    "charge": "すべて",
+    "tools": "TypeScript / Vue.js",
+    "period": "50時間",
+    "points": [
+      "Vue.jsで作成したブラウザ上で遊べる神経衰弱です。",
+      "自分のみで遊ぶ練習モードと、コンピュータと対戦するモードがあります。",
+      "コンピュータの強さは「よわよわ」「ふつう」「つよつよ」の3つです。コンピュータは強さにより最適な行動（一度でも表になったカードのうち、ペアとなるカードがあればそれらを優先して選択する）を取る確率が変化します。「よわよわ」は10%、「ふつう」は50%、「つよつよ」は100%の確率で最適な行動を取ります。"
+    ]
+  },
+  {
     "img": "img/work/my-memo-board.png",
     "title": "My Memo Board",
     "subtitle": "ドラッグ&ドロップメモアプリ",
@@ -8,7 +28,7 @@
     ],
     "dialog": false,
     "dialogImg": "img/work/my-memo-board.gif",
-    "url": "https://draggable-memo-app-foolish-pine.netlify.app/",
+    "url": "https://draggable-memo-app-foolish-pine.netlify.app",
     "github": "https://github.com/foolish-pine/trello-like-app",
     "charge": "すべて",
     "tools": "TypeScript / Vue.js / Firebase / Vuetify",
@@ -30,7 +50,7 @@
     ],
     "dialog": false,
     "dialogImg": "img/work/chat-app.gif",
-    "url": "https://chat-app-foolish-pine.netlify.app/",
+    "url": "https://chat-app-foolish-pine.netlify.app",
     "github": "https://github.com/foolish-pine/chat_app",
     "charge": "すべて",
     "tools": "TypeScript / Vue.js / Firebase / Vuetify",
@@ -51,7 +71,7 @@
     ],
     "dialog": false,
     "dialogImg": "img/work/morse-code-editor.gif",
-    "url": "https://morse-code-editor.netlify.app/",
+    "url": "https://morse-code-editor.netlify.app",
     "github": "https://github.com/foolish-pine/morse_code_editor",
     "charge": "すべて",
     "tools": "TypeScript / Vue.js / Vuetify",
@@ -71,7 +91,7 @@
     ],
     "dialog": false,
     "dialogImg": "img/work/github-readme-previewer.gif",
-    "url": "https://github-readme-previewer.netlify.app/",
+    "url": "https://github-readme-previewer.netlify.app",
     "github": "https://github.com/foolish-pine/github_readme_previewer",
     "charge": "すべて",
     "tools": "TypeScript / Vue.js / Vuetify",
@@ -92,7 +112,7 @@
       "Vue.js"
     ],
     "dialog": false,
-    "url": "https://portfolio-public.foolish-pine.com/home",
+    "url": "https://portfolio.foolish-pine.com",
     "github": "https://github.com/foolish-pine/portfolio_public",
     "charge": "すべて",
     "tools": "Vue.js / Vuetify",
@@ -130,7 +150,7 @@
       "HTML/CSS", "Sass", "jQuery", "PHP"
     ],
     "dialog": false,
-    "url": "https://cresta-intermediate.foolish-pine.com/",
+    "url": "https://cresta-intermediate.foolish-pine.com",
     "github": "https://github.com/foolish-pine/Cresta_intermediate",
     "charge": "コーディングのみ",
     "designDistributer": "【コーディング課題】XDからコーディングをしよう【中級編】",
@@ -151,7 +171,7 @@
       "HTML/CSS", "Sass", "jQuery", "PHP"
     ],
     "dialog": false,
-    "url": "https://daily-trial-2nd.foolish-pine.com/",
+    "url": "https://daily-trial-2nd.foolish-pine.com",
     "github": "https://github.com/foolish-pine/daily_trial_2nd",
     "charge": "コーディングのみ",
     "designDistributer": "デイトラ(現在は配布終了)",
@@ -172,7 +192,7 @@
       "HTML/CSS", "Sass", "jQuery"
     ],
     "dialog": false,
-    "url": "https://kagu.foolish-pine.com/",
+    "url": "https://kagu.foolish-pine.com",
     "github": "https://github.com/foolish-pine/KAGU",
     "charge": "コーディングのみ",
     "designDistributer": "【無料配布】コーディング練習用　リッチデザインデータ「KAGU」",
