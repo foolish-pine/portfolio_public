@@ -2,7 +2,7 @@
   {
     "img": "img/work/concentration-game.png",
     "title": "神経衰弱",
-    "subtitle": "Vue.jsでつくる神経衰弱ゲーム",
+    "subtitle": "神経衰弱ゲーム",
     "tag": [
       "TypeScript", "Vue.js"
     ],

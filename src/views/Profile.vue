@@ -17,13 +17,13 @@
             </div>
           </v-col>
           <v-col cols="12" xs="12" lg="6">
-            <p class="mb-2 headline font-weight-bold">
+            <p class="mb-2 headline font-weight-bold text-center text-lg-left">
               🍍{{ profile.about.name }}
             </p>
             <div>
               {{ profile.about.comment }}
             </div>
-            <div>
+            <div class="text-center text-lg-left">
               <a href="https://twitter.com/foolish_pine">
                 <v-icon class="mdi-36px" color="#55acee">mdi-twitter</v-icon>
               </a>
