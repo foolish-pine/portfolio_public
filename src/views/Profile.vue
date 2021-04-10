@@ -38,6 +38,31 @@
       <v-row>
         <v-col cols="12" xs="12" lg="6">
           <div class="mt-10">
+            <v-card class="mx-auto my-10 pa-5" elevation="7">
+              <h2 class="mb-3 text-center">🌱 {{ profile.career.title }}</h2>
+              <v-simple-table>
+                <thead>
+                  <tr class="col-xs-4">
+                    <th class="text-left subtitle-2">
+                      {{ profile.career.th[0] }}
+                    </th>
+                    <th class="text-left subtitle-2">
+                      {{ profile.career.th[1] }}
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr
+                    v-for="content in profile.career.contents"
+                    :key="content.name"
+                    class="col-xs-8"
+                  >
+                    <td class="body-1">{{ content.date }}</td>
+                    <td class="body-1">{{ content.name }}</td>
+                  </tr>
+                </tbody>
+              </v-simple-table>
+            </v-card>
             <v-card class="mx-auto pa-5" elevation="7">
               <h2 class="mb-3 text-center">
                 📃 {{ profile.qualifications.title }}
