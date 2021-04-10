@@ -18,7 +18,7 @@
           </v-col>
           <v-col cols="12" xs="12" lg="6">
             <p class="mb-2 headline font-weight-bold text-center text-lg-left">
-              🍍{{ profile.about.name }}
+              {{ profile.about.name }}
             </p>
             <div>
               {{ profile.about.comment }}
