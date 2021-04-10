@@ -1,5 +1,25 @@
 [
   {
+    "img": "img/work/calculator.png",
+    "title": "React Calculator",
+    "subtitle": "電卓",
+    "tag": [
+      "TypeScript", "React"
+    ],
+    "dialog": false,
+    "dialogImg": "img/work/calculator.gif",
+    "url": "https://pine-react-calculator.netlify.app/",
+    "github": "https://github.com/foolish-pine/react-calculator",
+    "charge": "すべて",
+    "tools": "TypeScript / React",
+    "period": "10時間",
+    "points": [
+      "React で作成した電卓です。",
+      "四則演算が可能です。小数を含む計算もできます。",
+      "Jest + React Testing Library によるテストも行いました。"
+    ]
+  },
+  {
     "img": "img/work/concentration-game.png",
     "title": "神経衰弱",
     "subtitle": "神経衰弱ゲーム",

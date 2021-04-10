@@ -84,6 +84,14 @@
                 >Vue.js</v-chip
               >
               <v-chip
+                v-if="work.tag.includes('React')"
+                class="caption mr-2 mb-2"
+                small
+                color="#61DBFB"
+                text-color="white"
+                >React</v-chip
+              >
+              <v-chip
                 v-if="work.tag.includes('PHP')"
                 class="caption mr-2 mb-2"
                 small
